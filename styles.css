@@ -471,3 +471,17 @@ button:active {
 
 
 }
+
+.resume {
+    background: var(--clr-accent);
+    padding: 0.8rem;
+    border-radius: 50px;
+    border:none;
+    cursor: pointer;
+}
+
+.resume:hover {
+    background: var(--clr-light);
+    border:2px solid var(--clr-accent);
+    color: #ffa43c;
+}
